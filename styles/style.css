@@ -14,7 +14,7 @@ img{
     height: auto;
 }
 body{
-    font-family: Lexend Deca,Big Shoulders Display;
+    font-family:'Lexend Deca','Big Shoulders Display';
     background-color: hsla(0, 0%, 100%, 0.75);
     width: 100vw;
     height: 100vh;
@@ -25,47 +25,59 @@ body{
     gap: 1rem;
 }
 .column-container{
-    background-color: red;
-    width:50%;
-    margin:1rem;
-    padding:2rem;
+    width:60rem;
     display: flex;
     flex-direction: row;
     justify-content:center;
     align-items: center;
-    gap:-5rem;
+    
 }
 .sedans-layout{
     background-color: hsl(31, 77%, 52%);
-    width:100%;
-    
     padding:2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items:flex-start;
-    line-height: 1.5rem;
-   
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
 }
 .suvs-layout{
     background-color:  hsl(184, 100%, 22%);
-    width: 100%;
-    
     padding:2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items:flex-start;
-    line-height: 1.5rem;
 }
 .luxury-layout{
     background-color:  hsl(179, 100%, 13%);
-    width: 100%;
-   
     padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items:flex-start;
-    line-height: 1.5rem;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.para{
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 1.15rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5;
+    padding: 2.5rem 0rem;
+}
+.title{
+    font-family: 'Big Shoulders Display';
+    font-size:2.4rem ;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%) ;
+    padding-top: 1.5rem;
+}
+.btn{
+    font-family: 'Lexend Deca';
+    font-weight: 700;
+    background-color: hsl(0, 0%, 95%);
+    border-color:  hsl(0, 0%, 95%);
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    border-radius:20px ;
+}
+.btn-one{
+    color:hsl(31, 77%, 52%);
+}
+.btn-two{
+    color:  hsl(184, 100%, 22%);
+}
+.btn-three{
+    color:  hsl(179, 100%, 13%);
 }
