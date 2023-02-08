@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 15px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+body{
+    font-family: Lexend Deca,Big Shoulders Display;
+    background-color: hsla(0, 0%, 100%, 0.75);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.column-container{
+    background-color: red;
+    width:50%;
+    margin:1rem;
+    padding:2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap:-5rem;
+}
+.sedans-layout{
+    background-color: hsl(31, 77%, 52%);
+    width:100%;
+    
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    line-height: 1.5rem;
+   
+}
+.suvs-layout{
+    background-color:  hsl(184, 100%, 22%);
+    width: 100%;
+    
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    line-height: 1.5rem;
+}
+.luxury-layout{
+    background-color:  hsl(179, 100%, 13%);
+    width: 100%;
+   
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    line-height: 1.5rem;
+}
